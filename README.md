@@ -1,8 +1,8 @@
 # Youtube App
 
-This project is a simple web app that allows users to search for a video and play it.
+This project is a simple web app that I made to aid my understanding of React.
 
-It features a list on the side that shows up to 5 videos related to the search.
+Its main functionality is to allow users to search for a Youtube video and play it. On the side, there is an interactive list that displays 5 videos related to the search.
 
 ###Usage###
 
