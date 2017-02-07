@@ -1,25 +1,22 @@
-# ReduxSimpleStarter
+# Youtube App
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This project is a simple web app that allows users to search for a video and play it.
 
-###Getting Started###
+It features a list on the side that shows up to 5 videos related to the search.
 
-There are two methods for getting started with this repo.
+###Usage###
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+Requirements: 
+1. Node.js
 
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
+Steps:
+1. Clone this project and extract it on your computer
+2. Open a terminal and change tho the project directory
+3. Enter the following commands:
+
+...
 	> npm install
 	> npm start
-```
+...
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+4. On your preferred web browser, enter the path "http://localhost:3000"
