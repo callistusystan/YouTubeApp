@@ -20,4 +20,4 @@ Steps:
 		> npm install
 		> npm start
 	```
-4. On your preferred web browser, open "http://localhost:3000
+4. On your preferred web browser, open "http://localhost:8080"
