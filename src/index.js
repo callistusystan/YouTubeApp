@@ -20,7 +20,7 @@ class App extends Component {
 			selectedVideo: null
 		};
 
-		this.videoSearch('surfboards');
+		this.videoSearch('kittens');
 	}
 
 	videoSearch(term) {
@@ -38,10 +38,14 @@ class App extends Component {
 		return (
 			<div>
 				<SearchBar onSearchTermChange={ term => videoSearch(term) } />
-				<VideoDetail video={ this.state.selectedVideo } />
-				<VideoList
-					onVideoSelect={ selectedVideo => this.setState({ selectedVideo }) }
-					videos={ this.state.videos } />
+        <div className="container-fluid">
+          <div className="row">
+    				<VideoDetail video={ this.state.selectedVideo } />
+    				<VideoList
+    					onVideoSelect={ selectedVideo => this.setState({ selectedVideo }) }
+    					videos={ this.state.videos } />
+          </div>
+        </div>
 			</div>
 		);
 	}
@@ -51,4 +55,3 @@ class App extends Component {
 // put it on the page (in the DOM)
 
 ReactDOM.render(<App />, document.querySelector('.container'));
-
