@@ -4,7 +4,7 @@ This project is a simple web app that I made to aid my understanding of React.
 
 Its main functionality is to allow users to search for a Youtube video and play it. On the side, there is an interactive list that displays 5 videos related to the search.
 
-![Alt text](/documentation/screenshot1.png?raw=true "Youtube App")
+![Alt text](/screenshots/screenshot1.png?raw=true "Youtube App")
 
 ###Usage###
 
