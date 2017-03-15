@@ -6,7 +6,7 @@ Its main functionality is to allow users to search for a Youtube video and play 
 
 ![Alt text](/screenshots/screenshot1.png?raw=true "Youtube App")
 
-###Usage###
+### Usage ###
 
 Requirements: 
 
